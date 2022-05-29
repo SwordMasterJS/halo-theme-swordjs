@@ -5,6 +5,16 @@
     <#include "module/page-top.ftl">
     <div class="autopagerize_page_element">
         <div class="content">
+            <div class="tag-chips">
+                <@categoryTag method="list">
+                    <#list categories as category>
+                    <a href="${category.fullPath!}" title="${category.name!}: ${category.postCount!}">
+                        <span class="tag-black animated fadeInDown" data-tagname="${category.name!}">${category.name!}
+                        </span>
+                    </a>
+                    </#list>
+                </@categoryTag>
+            </div>
             <#include "module/post-entry.ftl">
             <#if posts.totalPages gt 1>
                 <@paginationTag method="categoryPosts" page="${posts.number?c}" total="${posts.totalPages?c}" display="3" slug="${category.slug!}">

@@ -1,11 +1,11 @@
-id: Knarc
-name: Knarc
+id: Swordjs
+name: Swordjs
 author:
   name: caicai
   website: https://www.caicai.me
-description: Halo theme - modified from caicai-anatole
+description: Halo theme - modified from caicai-anatole and knarc
 logo: https://avatars1.githubusercontent.com/u/1811819?s=460&v=4
-website: https://github.com/kevinng77/halo-theme-knarc
-repo: https://github.com/kevinng77/halo-theme-knarc
+website: https://github.com/SwordMasterJS/halo-theme-swordjs
+repo: https://github.com/SwordMasterJS/halo-theme-swordjs
 version: 1.0.0
 require: 1.5.1
